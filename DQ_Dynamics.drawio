@@ -1,31 +1,34 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="Page-1" id="CN8KXlb1iRXuwvM5C5oC">
-    <mxGraphModel dx="2284" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2762" dy="940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="OsBLbfXyoSN7c7r9XEhY-1" value="DQ_SerialManipulatorDynamicsSolver" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="100" width="290" height="170" as="geometry">
+          <mxGeometry x="1000" y="100" width="290" height="190" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="OsBLbfXyoSN7c7r9XEhY-82" value="# robot" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontStyle=0;spacingTop=0;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-1">
+          <mxGeometry y="26" width="290" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="OsBLbfXyoSN7c7r9XEhY-2" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-1">
-          <mxGeometry y="26" width="290" height="8" as="geometry" />
+          <mxGeometry y="52" width="290" height="8" as="geometry" />
         </mxCell>
         <mxCell id="OsBLbfXyoSN7c7r9XEhY-14" value="compute_torques(q, q_dot, q_dot_dot); &#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontStyle=2;spacingTop=0;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-1">
-          <mxGeometry y="34" width="290" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="OsBLbfXyoSN7c7r9XEhY-15" value="euler_lagrange(q, q_dot)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontStyle=2;spacingTop=0;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-1">
           <mxGeometry y="60" width="290" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="OsBLbfXyoSN7c7r9XEhY-16" value="get_inertia_matrix()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontStyle=2;spacingTop=0;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-1">
+        <mxCell id="OsBLbfXyoSN7c7r9XEhY-15" value="euler_lagrange(q, q_dot)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontStyle=2;spacingTop=0;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-1">
           <mxGeometry y="86" width="290" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="OsBLbfXyoSN7c7r9XEhY-18" value="get_coriolis_vector()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontStyle=2;spacingTop=0;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-1">
+        <mxCell id="OsBLbfXyoSN7c7r9XEhY-16" value="get_inertia_matrix()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontStyle=2;spacingTop=0;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-1">
           <mxGeometry y="112" width="290" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="OsBLbfXyoSN7c7r9XEhY-17" value="get_gravitational_forces_vector()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontStyle=2;spacingTop=0;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-1">
+        <mxCell id="OsBLbfXyoSN7c7r9XEhY-18" value="get_coriolis_vector()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontStyle=2;spacingTop=0;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-1">
           <mxGeometry y="138" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OsBLbfXyoSN7c7r9XEhY-17" value="get_gravitational_forces_vector()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontStyle=2;spacingTop=0;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-1">
+          <mxGeometry y="164" width="290" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OsBLbfXyoSN7c7r9XEhY-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="OsBLbfXyoSN7c7r9XEhY-20">
           <mxGeometry relative="1" as="geometry">
@@ -38,12 +41,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OsBLbfXyoSN7c7r9XEhY-20" value="DQ_SerialManipulatorDynamicsGaussPrincipleSolver" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="750" y="340" width="320" height="80" as="geometry">
+          <mxGeometry x="700" y="340" width="400" height="80" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OsBLbfXyoSN7c7r9XEhY-21" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-20">
-          <mxGeometry y="26" width="320" height="8" as="geometry" />
+          <mxGeometry y="26" width="400" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="OsBLbfXyoSN7c7r9XEhY-81" value="DQ_SerialManipulatorDynamicsGaussPrincipleSolver(robot)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontStyle=0;spacingTop=0;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-20">
+          <mxGeometry y="34" width="400" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OsBLbfXyoSN7c7r9XEhY-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="OsBLbfXyoSN7c7r9XEhY-28" target="OsBLbfXyoSN7c7r9XEhY-1">
           <mxGeometry relative="1" as="geometry" />
@@ -157,6 +163,9 @@
         </mxCell>
         <mxCell id="OsBLbfXyoSN7c7r9XEhY-79" value="DQ_SerialManipulatorDH(dh_matrix, inertia_tensors, center_of_masses, masses)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontStyle=0;spacingTop=0;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-77">
           <mxGeometry y="34" width="550" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OsBLbfXyoSN7c7r9XEhY-84" value="&lt;font face=&quot;Lucida Console&quot; style=&quot;font-size: 20px;&quot;&gt;gplc = DQ_SerialManipulatorDynamicsGaussPrincipleSolver(robot);&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot; style=&quot;font-size: 20px;&quot;&gt;gplc.compute_torques(q, q_dot, q_dot_dot)&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="700" y="560" width="580" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
