@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="Page-1" id="CN8KXlb1iRXuwvM5C5oC">
-    <mxGraphModel dx="1147" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2284" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -78,42 +78,85 @@
           <mxGeometry y="26" width="150" height="8" as="geometry" />
         </mxCell>
         <mxCell id="OsBLbfXyoSN7c7r9XEhY-37" value="DQ_Dynamics" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="60" y="190" width="510" height="320" as="geometry">
+          <mxGeometry x="120" y="100" width="430" height="320" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OsBLbfXyoSN7c7r9XEhY-47" value="# gravitational_acceleration_ " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontStyle=0;spacingTop=0;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-37">
-          <mxGeometry y="26" width="510" height="26" as="geometry" />
+          <mxGeometry y="26" width="430" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OsBLbfXyoSN7c7r9XEhY-48" value="# inertia_tensors_" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontStyle=0;spacingTop=0;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-37">
-          <mxGeometry y="52" width="510" height="26" as="geometry" />
+          <mxGeometry y="52" width="430" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OsBLbfXyoSN7c7r9XEhY-49" value="# center_of_masses_" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontStyle=0;spacingTop=0;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-37">
-          <mxGeometry y="78" width="510" height="26" as="geometry" />
+          <mxGeometry y="78" width="430" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OsBLbfXyoSN7c7r9XEhY-50" value="# masses_" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontStyle=0;spacingTop=0;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-37">
-          <mxGeometry y="104" width="510" height="26" as="geometry" />
+          <mxGeometry y="104" width="430" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OsBLbfXyoSN7c7r9XEhY-38" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-37">
-          <mxGeometry y="130" width="510" height="8" as="geometry" />
+          <mxGeometry y="130" width="430" height="8" as="geometry" />
         </mxCell>
         <mxCell id="OsBLbfXyoSN7c7r9XEhY-39" value="+ get_gravitational_acceleration()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontStyle=0;spacingTop=0;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-37">
-          <mxGeometry y="138" width="510" height="26" as="geometry" />
+          <mxGeometry y="138" width="430" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OsBLbfXyoSN7c7r9XEhY-40" value="+ set_gravitational_acceleration(gravitational_acceleration)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontStyle=0;spacingTop=0;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-37">
-          <mxGeometry y="164" width="510" height="26" as="geometry" />
+          <mxGeometry y="164" width="430" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OsBLbfXyoSN7c7r9XEhY-41" value="+ get_inertia_tensors()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontStyle=0;spacingTop=0;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-37">
-          <mxGeometry y="190" width="510" height="26" as="geometry" />
+          <mxGeometry y="190" width="430" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OsBLbfXyoSN7c7r9XEhY-42" value="+ get_center_of_masses()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontStyle=0;spacingTop=0;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-37">
-          <mxGeometry y="216" width="510" height="26" as="geometry" />
+          <mxGeometry y="216" width="430" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OsBLbfXyoSN7c7r9XEhY-43" value="+ get_masses()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontStyle=0;spacingTop=0;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-37">
-          <mxGeometry y="242" width="510" height="26" as="geometry" />
+          <mxGeometry y="242" width="430" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="OsBLbfXyoSN7c7r9XEhY-44" value="set_inertial_parameters(inertia_tensors, center_of_masses, masses)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontStyle=2;spacingTop=0;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-37">
-          <mxGeometry y="268" width="510" height="26" as="geometry" />
+        <mxCell id="OsBLbfXyoSN7c7r9XEhY-44" value="+ set_inertial_parameters(inertia_tensors, center_of_masses, masses)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontStyle=2;spacingTop=0;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-37">
+          <mxGeometry y="268" width="430" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OsBLbfXyoSN7c7r9XEhY-51" value="DQ_Kinematics" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="100" width="220" height="320" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OsBLbfXyoSN7c7r9XEhY-56" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-51">
+          <mxGeometry y="26" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="OsBLbfXyoSN7c7r9XEhY-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="OsBLbfXyoSN7c7r9XEhY-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OsBLbfXyoSN7c7r9XEhY-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="OsBLbfXyoSN7c7r9XEhY-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OsBLbfXyoSN7c7r9XEhY-63" value="DQ_SerialManipulator" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="480" width="450" height="80" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OsBLbfXyoSN7c7r9XEhY-68" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-63">
+          <mxGeometry y="26" width="450" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="OsBLbfXyoSN7c7r9XEhY-74" value="+ set_inertial_parameters(inertia_tensors, center_of_masses, masses)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontStyle=0;spacingTop=0;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-63">
+          <mxGeometry y="34" width="450" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OsBLbfXyoSN7c7r9XEhY-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="OsBLbfXyoSN7c7r9XEhY-77" target="OsBLbfXyoSN7c7r9XEhY-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OsBLbfXyoSN7c7r9XEhY-77" value="DQ_SerialManipulatorDH" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="610" width="550" height="80" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OsBLbfXyoSN7c7r9XEhY-78" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-77">
+          <mxGeometry y="26" width="550" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="OsBLbfXyoSN7c7r9XEhY-79" value="DQ_SerialManipulatorDH(dh_matrix, inertia_tensors, center_of_masses, masses)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontStyle=0;spacingTop=0;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-77">
+          <mxGeometry y="34" width="550" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
