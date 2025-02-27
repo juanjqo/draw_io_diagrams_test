@@ -77,6 +77,44 @@
         <mxCell id="OsBLbfXyoSN7c7r9XEhY-35" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-34">
           <mxGeometry y="26" width="150" height="8" as="geometry" />
         </mxCell>
+        <mxCell id="OsBLbfXyoSN7c7r9XEhY-37" value="DQ_Dynamics" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="190" width="510" height="320" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OsBLbfXyoSN7c7r9XEhY-47" value="# gravitational_acceleration_ " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontStyle=0;spacingTop=0;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-37">
+          <mxGeometry y="26" width="510" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OsBLbfXyoSN7c7r9XEhY-48" value="# inertia_tensors_" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontStyle=0;spacingTop=0;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-37">
+          <mxGeometry y="52" width="510" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OsBLbfXyoSN7c7r9XEhY-49" value="# center_of_masses_" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontStyle=0;spacingTop=0;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-37">
+          <mxGeometry y="78" width="510" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OsBLbfXyoSN7c7r9XEhY-50" value="# masses_" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontStyle=0;spacingTop=0;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-37">
+          <mxGeometry y="104" width="510" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OsBLbfXyoSN7c7r9XEhY-38" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-37">
+          <mxGeometry y="130" width="510" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="OsBLbfXyoSN7c7r9XEhY-39" value="+ get_gravitational_acceleration()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontStyle=0;spacingTop=0;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-37">
+          <mxGeometry y="138" width="510" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OsBLbfXyoSN7c7r9XEhY-40" value="+ set_gravitational_acceleration(gravitational_acceleration)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontStyle=0;spacingTop=0;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-37">
+          <mxGeometry y="164" width="510" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OsBLbfXyoSN7c7r9XEhY-41" value="+ get_inertia_tensors()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontStyle=0;spacingTop=0;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-37">
+          <mxGeometry y="190" width="510" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OsBLbfXyoSN7c7r9XEhY-42" value="+ get_center_of_masses()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontStyle=0;spacingTop=0;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-37">
+          <mxGeometry y="216" width="510" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OsBLbfXyoSN7c7r9XEhY-43" value="+ get_masses()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontStyle=0;spacingTop=0;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-37">
+          <mxGeometry y="242" width="510" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OsBLbfXyoSN7c7r9XEhY-44" value="set_inertial_parameters(inertia_tensors, center_of_masses, masses)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontStyle=2;spacingTop=0;" vertex="1" parent="OsBLbfXyoSN7c7r9XEhY-37">
+          <mxGeometry y="268" width="510" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
